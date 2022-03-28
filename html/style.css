@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #444444; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+
+}
+.container{
+    width: 410px;
+    height: 590px;
+    padding: 30px;
+
+    margin-right: 60px;
+    background: rgba(17, 17, 17, 0.897);
+    color: white;
+    position: relative;
+    border: 3px solid rgb(175, 175, 175);
+    border-radius: 10px;
+}
+
+.header{
+    width: 95%;
+    font-size: 1.54rem;
+    border-bottom: 3px solid white;
+}
+
+.close{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    cursor: pointer;
+}
+
+.robbery{
+    width: 95%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.robberies{
+    height: 350px;
+    overflow: auto;
+    
+}
+
+.robbery .red{
+    font-size: 1.5rem;
+    color: red;
+}
+
+.robbery h2{
+    font-size: 1.1rem;
+}
+
+.robbery .green{
+    font-size: 1.5rem;
+    color: green;
+}
+
+.jobs{
+    display: flex;
+    align-items: center;
+
+    width: 300px;
+    height: 80px;
+    overflow-x: auto;
+}
+
+.job{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+
+
+}
+
+.job i{
+    font-size: 2rem;
+}
+
+.job p{
+    margin-left:10px;
+
+    font-size: 2rem;
+}
+
+.players{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.players p{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.35rem;
+}
